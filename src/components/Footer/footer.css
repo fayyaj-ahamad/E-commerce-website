@@ -1,0 +1,28 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 8vh;
+  background-color: #ae0e0e;
+  color: white;
+  padding: 1em 5em;
+}
+
+.footer h3 {
+  font-size: 1.4em;
+  font-family: sans-serif;
+}
+
+.footer span {
+  color: rgb(24, 21, 22);
+  padding: 0em 0.2em;
+  font-size: 1.3em;
+}
+
+.footer h4{
+    font-size: 1em;
+    font-family: sans-serif;
+    color: #4a0404;
+  color: whitesmoke;
+}

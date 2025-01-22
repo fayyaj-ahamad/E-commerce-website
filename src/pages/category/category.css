@@ -1,0 +1,38 @@
+.catgory{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em 5em;
+
+}
+
+.catgory_circle{
+    width: 130px;
+    height: 130px;
+    background-color: #ae0e0e;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.catgory_img{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+.catgory_img img{
+    width: 100%;
+}
+
+.catgory_name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.4em 0em;
+}
+
+.catgory_name span{
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #ae0e0e;
+    text-transform: capitalize;
+}

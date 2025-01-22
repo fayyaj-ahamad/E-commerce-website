@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.item{
+    width: 100%;
+    height: 100%;
+    background-color: #f6eded;
+    padding: 0em 5em;
+}
+
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 2em;
+}
+
+.heading h2{
+    font-family: sans-serif;
+    font-size: 1.5em;
+}
+
+
+.heading_name{
+    margin-top: 0.5em;
+   display: grid;
+   grid-template-columns: 2fr 1fr 1fr 1fr;
+}
+.heading_name h6{
+    text-transform: uppercase;
+    font-family: 1em;
+    font-family: sans-serif;
+    font-size: 0.9em;
+    color: rgb(231, 20, 31);
+}
+
+.items{
+    margin-top: 1em;
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2),
+                 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.items_img{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+}
+
+.img{
+    margin: 0em 0.5em;
+    display: flex;
+    width: 100px;
+    height: 100px;
+}
+
+.img img{
+    width: 100%;
+    height: 100%;
+}
+
+ .cart_items_name span{
+    margin-left: 1em;
+    font-weight: 600;
+    font-family: sans-serif;
+    width: 300px;
+    display: block;
+}
+.cart_items_name p{
+    margin-left: 1em;
+    font-family: sans-serif;
+    color: rgb(8, 121, 8);
+    margin-top: 0.5em;
+}
+
+.cart_items_name button{
+    margin-left: 1em;
+    width: inherit;
+    color: red;
+    background-color: inherit;
+}
+.cart_quantity{
+    display: flex;
+    margin-top: 2em;
+}
+.cart_quantity span{
+    font-size: 0.9em;
+    width:24px;
+    height: 24px;
+    background-color: rgb(161, 156, 156);
+    margin: 0.7em 0em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart_quantity button{
+    background-color: rgb(138, 134, 134);
+    width: 24px;
+    height: 24px;
+}
+
+.items_price, .total_price p{
+    font-weight: 600;
+    font-family: sans-serif;
+    margin-top: 2.5em;
+}
+
+.total_items_price{
+    margin-top: 1.5em;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
